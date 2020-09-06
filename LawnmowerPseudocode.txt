@@ -1,0 +1,13 @@
+Lawnmower Pseudocode
+
+int swap count
+temporary variable
+boolean
+for i = 0 to dark counts do
+	if i = even, return true, else false
+	for (j=even, increment)else (j=odd, decrement) to total count -1 do
+		if disk_state[j] is dark && disk_state[j+1] is light
+			swap disk_state[j] and disk_state[j+1]
+			increment swap_count
+
+

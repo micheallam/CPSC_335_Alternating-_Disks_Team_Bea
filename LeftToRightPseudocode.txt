@@ -1,0 +1,9 @@
+Left to Right
+
+int swap count
+dark variable
+for i = 0 to number of dark counts do
+	for j = 0 to n-1 do
+		if disk_state[j] is dark && disk_state[j+1] is light
+			swap (disk[j], disk[j+1])
+			increase swap_count
